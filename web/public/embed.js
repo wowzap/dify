@@ -256,8 +256,8 @@
       styleSheet.textContent = `
         #${containerDiv.id} {
           position: fixed;
-          bottom: var(--${containerDiv.id}-bottom, 1rem);
-          right: var(--${containerDiv.id}-right, 1rem);
+          bottom: var(--${containerDiv.id}-bottom, 0.5rem);
+          right: var(--${containerDiv.id}-right, 0.5rem);
           left: var(--${containerDiv.id}-left, unset);
           top: var(--${containerDiv.id}-top, unset);
           width: var(--${containerDiv.id}-width, 40px);
